@@ -14,7 +14,7 @@ const SecondSection = () => {
           assumenda soluta odit harum voluptate inventore ipsa maiores fugiat
           accusamus eos nulla. Iure voluptatibus explicabo officia.
         </p>
-        <div>
+        <div className={style.image}>
           <img
             src="https://p.w3layouts.com/demos_new/template_demo/26-02-2020/worksmart-liberty-demo_Free/2051390250/web/assets/images/video.jpg"
             alt=""
