@@ -1,6 +1,7 @@
 import FirstSection from "./components/firstSection/FirstSection";
 import Navbar from "./components/navbar/Navbar";
 import SecondSection from "./components/secondSection/SecondSection";
+import ThirdSection from "./components/thirdSection/ThirdSection";
 
 const App = () => {
   return (
@@ -13,8 +14,11 @@ const App = () => {
       <section>
         <FirstSection />
       </section>
-      <section style={{backgroundColor:"#fff"}}>
+      <section style={{ backgroundColor: "#fff" }}>
         <SecondSection />
+      </section>
+      <section>
+        <ThirdSection />
       </section>
     </>
   );
